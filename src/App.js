@@ -347,9 +347,9 @@ export default function Portfolio() {
               I'm always interested in hearing about new projects and opportunities. 
               Whether you have a question or just want to say hi, feel free to reach out!
             </p>
-            <a href="mohdabdulghani177@gmail.com" style={styles.contactBtn}>
+            <a href="mailto:mohdabdulghani177@gmail.com" style={styles.contactBtn}>
               <Mail size={20} />
-              Send me an email
+              Send me an email mohdabdulghani177@gmail.com
             </a>
           </div>
         </div>
