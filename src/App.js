@@ -59,8 +59,8 @@ export default function Portfolio() {
   ];
 
   const skills = [
-    { category: "Frontend", items: ["React", "JavaScript", "HTML/CSS", "Next.js"] },
-    { category: "Backend", items: ["Node.js", "Python", "REST APIs"] },
+    { category: "Frontend", items: ["React", "JavaScript", "HTML/CSS" ] },
+    { category: "Backend", items: ["java", "Python", "REST APIs"] },
     { category: "Database", items: ["PostgreSQL", "Firebase", "MySQL"] },
     { category: "Tools", items: ["Git", "Figma", "VS Code"] }
   ];
@@ -209,7 +209,7 @@ export default function Portfolio() {
             <span>Available for work</span>
           </div>
           <h1 style={styles.heroTitle}>
-            Hi, I'm <span style={styles.gradientText}>Your Name</span>
+            Hi, I'm <span style={styles.gradientText}>MOHD ABDUL GHANI</span>
           </h1>
           <h2 style={styles.heroSubtitle}>Full Stack Developer</h2>
           <p style={styles.heroDescription}>
@@ -231,13 +231,13 @@ export default function Portfolio() {
             </button>
           </div>
           <div style={styles.socialLinks}>
-            <a href="https://github.com" style={styles.socialLink} target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/MohdAbdulGhani-1/" style={styles.socialLink} target="_blank" rel="noopener noreferrer">
               <Github size={24} />
             </a>
-            <a href="https://linkedin.com" style={styles.socialLink} target="_blank" rel="noopener noreferrer">
+            <a href="https://www.linkedin.com/in/mohd-abdul-ghani-91737236a/" style={styles.socialLink} target="_blank" rel="noopener noreferrer">
               <Linkedin size={24} />
             </a>
-            <a href="mailto:your.email@example.com" style={styles.socialLink}>
+            <a href="mailto:mohdabdulghani177@gmail.com" style={styles.socialLink}>
               <Mail size={24} />
             </a>
           </div>
@@ -274,10 +274,10 @@ export default function Portfolio() {
                 <div style={styles.statNumber}>50+</div>
                 <div style={styles.statLabel}>Projects Completed</div>
               </div>
-              <div style={styles.statCard}>
+              {/* <div style={styles.statCard}>
                 <div style={styles.statNumber}>30+</div>
                 <div style={styles.statLabel}>Happy Clients</div>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
@@ -347,7 +347,7 @@ export default function Portfolio() {
               I'm always interested in hearing about new projects and opportunities. 
               Whether you have a question or just want to say hi, feel free to reach out!
             </p>
-            <a href="mailto:your.email@example.com" style={styles.contactBtn}>
+            <a href="mailto:mohdabdulghani177@gmail.com" style={styles.contactBtn}>
               <Mail size={20} />
               Send me an email
             </a>
@@ -358,7 +358,7 @@ export default function Portfolio() {
       {/* Footer */}
       <footer style={styles.footer}>
         <p style={styles.footerText}>
-          © 2024 Your Name. Built with React & passion.
+          © 2025 Mohd Abdul Ghani. Built with React & passion & love.
         </p>
       </footer>
     </div>
