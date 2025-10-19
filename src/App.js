@@ -36,18 +36,18 @@ export default function Portfolio() {
 
   const projects = [
     {
-      title: "E-Commerce Platform",
-      description: "A full-stack e-commerce solution with payment integration, user authentication, and admin dashboard.",
-      technologies: ["React", "Node.js", "MongoDB", "Stripe"],
-      github: "#",
-      demo: "#"
+      title: "ELECTRICITY-COMPLAINT-SYSTEM",
+      description: "A full-stack ELECTRICITY-COMPLAINT-SYSTEM solution with management system, user authentication, techinetion dashboard, user dashboard and admin dashboard.",
+      technologies: ["HTML", "CSS", "javascript", "nosql(excle)" ,"pandas"],
+      github: "https://github.com/MohdAbdulGhani-1/ELECTRICITY-COMPLAINT-SYSTEM",
+      demo: "https://github.com/MohdAbdulGhani-1/ELECTRICITY-COMPLAINT-SYSTEM"
     },
     {
-      title: "Task Management App",
-      description: "Collaborative task manager with real-time updates, drag-and-drop interface, and team features.",
-      technologies: ["React", "Firebase", "Material-UI"],
-      github: "#",
-      demo: "#"
+      title: "Tic-Tac-Toe Web App",
+      description: "Tic-Tac-Toe game Web application ",
+      technologies: ["Java", "JS", "Material-UI"],
+      github: "https://github.com/MohdAbdulGhani-1/TicTacToe",
+      demo: "https://github.com/MohdAbdulGhani-1/TicTacToe"
     },
     {
       title: "Weather Dashboard",
@@ -59,9 +59,9 @@ export default function Portfolio() {
   ];
 
   const skills = [
-    { category: "Frontend", items: ["React", "JavaScript", "HTML/CSS" ] },
-    { category: "Backend", items: ["java", "Python", "REST APIs"] },
-    { category: "Database", items: ["PostgreSQL", "Firebase", "MySQL"] },
+    { category: "Frontend", items: ["React", "JavaScript", "HTML/CSS", "Responsive designs" ] },
+    { category: "Backend", items: ["java", "Python", "REST APIs" , "FAST APIs"] },
+    { category: "Database", items: ["PostgreSQL", "Firebase", "MySQL", "Sqlite"] },
     { category: "Tools", items: ["Git", "Figma", "VS Code"] }
   ];
 
@@ -211,7 +211,7 @@ export default function Portfolio() {
           <h1 style={styles.heroTitle}>
             Hi, I'm <span style={styles.gradientText}>MOHD ABDUL GHANI</span>
           </h1>
-          <h2 style={styles.heroSubtitle}>Full Stack Developer</h2>
+          <h2 style={styles.heroSubtitle}>Full Stack Developer & Software Developer</h2>
           <p style={styles.heroDescription}>
             I build exceptional digital experiences that combine beautiful design with powerful functionality.
             Let's create something amazing together.
@@ -267,11 +267,11 @@ export default function Portfolio() {
             </div>
             <div style={styles.statsGrid}>
               <div style={styles.statCard}>
-                <div style={styles.statNumber}>5+</div>
+                <div style={styles.statNumber}>0-1</div>
                 <div style={styles.statLabel}>Years Experience</div>
               </div>
               <div style={styles.statCard}>
-                <div style={styles.statNumber}>50+</div>
+                <div style={styles.statNumber}>10+</div>
                 <div style={styles.statLabel}>Projects Completed</div>
               </div>
               {/* <div style={styles.statCard}>
@@ -358,7 +358,7 @@ export default function Portfolio() {
       {/* Footer */}
       <footer style={styles.footer}>
         <p style={styles.footerText}>
-          © 2025 Mohd Abdul Ghani. Built with React & passion & love.
+          © 2025 Mohd Abdul Ghani. Built with React, love & passion.
         </p>
       </footer>
     </div>
