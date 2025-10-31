@@ -55,6 +55,13 @@ export default function Portfolio() {
       technologies: ["React", "OpenWeather API", "Chart.js"],
       github: "#",
       demo: "#"
+    },
+    {
+      title: "Company Registration & Verification Module",
+      description: "A comprehensive module for company registration and verification, including document uploads, admin approval workflows, and user notifications.",
+      technologies: ["Python", "Django", "PostgreSQL", "Firebase", "APIs", "Redux" , "Figma"],
+      github: "#",
+      demo: "#"
     }
   ];
 
